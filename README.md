@@ -1,4 +1,4 @@
-# Logo Renamer
+# Logo Processor
 
 A CLI tool to automatically rename company logo images based on brand recognition using Gemini or local OpenAI-compatible models, and to manipulate images with operations like trimming and background extension.
 

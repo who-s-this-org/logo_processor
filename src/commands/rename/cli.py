@@ -30,7 +30,9 @@ def rename(
     ),
 ):
     """
-    Identifies a company from its logo and renames the file to the company name.
+    Identifies a company from its logo and renames the file.
+
+    When a directory is passed, files are moved to a 'renamed' folder inside it.
     """
     # 0. Set Defaults
     if model_name is None:
